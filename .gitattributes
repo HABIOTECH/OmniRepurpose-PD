@@ -1,0 +1,5 @@
+# Exclude HTML dashboard and web assets from repository language statistics
+*.html linguist-detectable=false
+*.html linguist-vendored=true
+dashboard.html linguist-documentation=true
+assets/* linguist-vendored=true
