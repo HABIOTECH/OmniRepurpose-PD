@@ -9,8 +9,8 @@ import re
 import os
 import pandas as pd
 
-gtf_path = "/sc/kzd/home/abdullah/bioinformatics/scRNA-seq_breast-cancer/references/refdata-gex-GRCh38-2024-A/genes/genes.gtf.gz"
-out_path = "/sc/kzd/home/abdullah/bioinformatics/PK-multiomics/data/ref/id_map.tsv"
+gtf_path = "path/to/references/genes.gtf.gz"
+out_path = "path/to/project_root/data/ref/id_map.tsv"
 
 print(f"Reading and parsing GTF: {gtf_path}")
 
