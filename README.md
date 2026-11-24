@@ -1,9 +1,19 @@
-# OmniRepurpose-PD
+# OmniRepurpose-PD: Parkinson's Disease Multi-Omics Integration & Target Prioritization
 
-![OmniRepurpose-PD: Parkinson's disease multi-omics integration](assets/cover.png)
+<p align="center">
+  <img src="assets/cover.png" alt="OmniRepurpose-PD Banner" width="100%">
+</p>
 
-**A reproducible multi-omics analysis framework for Parkinson's disease research.** This project brings together midbrain single-nucleus RNA sequencing (snRNA-seq), CSF Olink proteomics, and Parkinson's disease GWAS evidence to prioritize genes and pathways for downstream investigation and drug-repurposing research.
+<p align="center">
+  <a href="https://github.com/HABIOTECH/OmniRepurpose-PD"><img src="https://img.shields.io/badge/Platform-snRNA--seq%20%7C%20GWAS%20%7C%20Proteomics-0284c7.svg?style=for-the-badge&logo=dna" alt="Multi-Omics"></a>
+  <a href="https://github.com/HABIOTECH/OmniRepurpose-PD/blob/main/dashboard.html"><img src="https://img.shields.io/badge/Interactive-Web%20Dashboard-10b981.svg?style=for-the-badge&logo=html5&logoColor=white" alt="Interactive Dashboard"></a>
+  <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157783"><img src="https://img.shields.io/badge/Cohort-GSE157783%20(41.4k%20Nuclei)-6366f1.svg?style=for-the-badge" alt="GSE157783"></a>
+  <a href="https://github.com/HABIOTECH/OmniRepurpose-PD"><img src="https://img.shields.io/badge/Concordance-R%20DESeq2%20vs%20PyDESeq2%20(r%20%3E%200.99)-8b5cf6.svg?style=for-the-badge" alt="Concordance"></a>
+  <a href="https://github.com/HABIOTECH/OmniRepurpose-PD"><img src="https://img.shields.io/badge/HPC-SLURM%20Ready-f97316.svg?style=for-the-badge&logo=linux" alt="HPC Ready"></a>
+  <a href="https://github.com/HABIOTECH"><img src="https://img.shields.io/badge/Affiliation-Horizon%20Science%20Communication%20LLC-0f172a.svg?style=for-the-badge" alt="Horizon Science Communication"></a>
+</p>
 
+> **A reproducible, open-source multi-omics framework for Parkinson's disease translational research.** Bridging post-mortem human midbrain single-nucleus RNA sequencing (41,435 nuclei across 12 populations), large-scale European GWAS causal architecture ($N = 482,730$), and longitudinal CSF fluid proteomics (PPMI Olink & SomaLogic) to prioritize candidate targets and pathways for neuroprotective drug repurposing.
 > **Status:** snRNA-seq exploratory analysis completed on GSE157783. GWAS/MAGMA and PPMI proteomics integration are planned / in progress. This repository is not a clinical tool and does not establish treatment efficacy.
 
 ## Research Team
