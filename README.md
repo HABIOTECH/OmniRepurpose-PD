@@ -17,14 +17,15 @@
 
 To facilitate rapid exploration, validation, and visual inspection of all single-nucleus differential expression results without requiring local R or Python installations, a standalone interactive web interface dashboard is bundled in this repository:
 
-- **Dashboard File:** [](dashboard.html)
-- **Direct Access:** Open directly in any modern web browser (double-click locally or run  / ).
+
+- **Dashboard File:** [dashboard.html](dashboard.html)
+- **Direct Access:** Open directly in any modern web browser (double-click `dashboard.html` locally or right-click -> Open With -> Chrome/Edge/Firefox).
 - **Key Features:**
-  - **KPI Metrics Ribbon:** Instant access to donor counts ( = 11$), analyzed nuclei (1,435$), testable cell populations (1$), and total FDR-significant discoveries (99$).
-  - **Interactive Search & Filter Table:** Filter all genes across any cell type by minimum absolute $\log_2	ext{FC}$, FDR significance thresholds, nominal p-values, or gene symbols.
+  - **KPI Metrics Ribbon:** Instant access to donor counts (**N = 11**), analyzed nuclei (**41,435**), testable cell populations (**11**), and total FDR-significant discoveries (**399**).
+  - **Interactive Search & Filter Table:** Filter all genes across any cell type by minimum absolute |log2FC|, FDR significance thresholds, nominal p-values, or gene symbols.
   - **Interactive Visualizations:** Embedded dynamic Chart.js plots showing discovery yield per cell type and cross-platform concordance.
   - **Comprehensive Data Export:** Instant one-click CSV export of filtered gene lists for downstream pathway enrichment analysis.
-
+  
 ## Overview
 
 The project follows a layer-by-layer workflow:
