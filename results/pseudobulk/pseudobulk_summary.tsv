@@ -1,0 +1,13 @@
+cell_type	n_donors	n_ctrl	n_pd	total_cells
+Oligodendrocytes	11	6	5	21268
+Excitatory	11	6	5	3037
+Microglia	11	6	5	3903
+OPCs	11	6	5	2754
+Astrocytes	11	6	5	4708
+Endothelial cells	11	6	5	1723
+Pericytes	11	6	5	1229
+Inhibitory	11	6	5	1548
+Ependymal	11	6	5	536
+CADPS2+ neurons	4	0	4	117
+GABA	10	5	5	531
+DaNs	4	2	2	68

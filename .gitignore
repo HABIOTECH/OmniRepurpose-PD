@@ -1,0 +1,17 @@
+*.h5ad
+*.tar.gz
+*.zip
+*.bam
+*.fastq.gz
+GSE157783_*
+data/raw/
+tools/
+.snakemake/
+.nextflow/
+*.err
+*.out
+*.log
+PD_EUR_Nalls2019/
+Proteomic_Analysis/
+data/raw/
+tools/
