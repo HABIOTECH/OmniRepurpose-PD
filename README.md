@@ -1,6 +1,6 @@
 # OmniRepurpose-PD
 
-![OmniRepurpose-PD: Parkinson's disease multi-omics integration](assets/cover.png)
+![OmniRepurpose-PD: Parkinson's disease multi-omics integration](assets/horizon_omni_repurpose_pd_multomics_cover_corrected.png)
 
 **A reproducible multi-omics analysis framework for Parkinson's disease research.** This project brings together midbrain single-nucleus RNA sequencing (snRNA-seq), CSF Olink proteomics, and Parkinson's disease GWAS evidence to prioritize genes and pathways for downstream investigation and drug-repurposing research.
 
@@ -15,9 +15,15 @@
 
 ## Interactive Web Interface Dashboard
 
-To explore, filter, and inspect all midbrain single-nucleus differential expression results interactively without needing R or Python:
+To facilitate rapid exploration, validation, and visual inspection of all single-nucleus differential expression results without requiring local R or Python installations, a standalone interactive web interface dashboard is bundled in this repository:
+
 - **Dashboard File:** [](dashboard.html)
-- **Features:** Key metrics summary (=11$ donors, 1,435$ nuclei, 1$ testable cell types), dynamic search and filter table across all genes and cell types, interactive Chart.js visualizations, and one-click CSV export.
+- **Direct Access:** Open directly in any modern web browser (double-click locally or run  / ).
+- **Key Features:**
+  - **KPI Metrics Ribbon:** Instant access to donor counts ( = 11$), analyzed nuclei (1,435$), testable cell populations (1$), and total FDR-significant discoveries (99$).
+  - **Interactive Search & Filter Table:** Filter all genes across any cell type by minimum absolute $\log_2	ext{FC}$, FDR significance thresholds, nominal p-values, or gene symbols.
+  - **Interactive Visualizations:** Embedded dynamic Chart.js plots showing discovery yield per cell type and cross-platform concordance.
+  - **Comprehensive Data Export:** Instant one-click CSV export of filtered gene lists for downstream pathway enrichment analysis.
 
 ## Overview
 
