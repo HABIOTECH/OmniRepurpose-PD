@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/HABIOTECH/OmniRepurpose-PD"><img src="https://img.shields.io/badge/Platform-snRNA--seq%20%7C%20GWAS%20%7C%20Proteomics-0284c7.svg?style=for-the-badge&logo=dna" alt="Multi-Omics"></a>
-  <a href="https://github.com/HABIOTECH/OmniRepurpose-PD/blob/main/dashboard.html"><img src="https://img.shields.io/badge/Interactive-Web%20Dashboard-10b981.svg?style=for-the-badge&logo=html5&logoColor=white" alt="Interactive Dashboard"></a>
+  <a href="https://github.com/HABIOTECH/OmniRepurpose-PD/blob/main/docs/dashboard.html"><img src="https://img.shields.io/badge/Interactive-Web%20Dashboard-10b981.svg?style=for-the-badge&logo=html5&logoColor=white" alt="Interactive Dashboard"></a>
   <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157783"><img src="https://img.shields.io/badge/Cohort-GSE157783%20(41.4k%20Nuclei)-6366f1.svg?style=for-the-badge" alt="GSE157783"></a>
   <a href="https://github.com/HABIOTECH/OmniRepurpose-PD"><img src="https://img.shields.io/badge/Concordance-R%20DESeq2%20vs%20PyDESeq2%20(r%20%3E%200.99)-8b5cf6.svg?style=for-the-badge" alt="Concordance"></a>
   <a href="https://github.com/HABIOTECH/OmniRepurpose-PD"><img src="https://img.shields.io/badge/HPC-SLURM%20Ready-f97316.svg?style=for-the-badge&logo=linux" alt="HPC Ready"></a>
@@ -35,8 +35,8 @@
 To facilitate rapid exploration, validation, and visual inspection of all single-nucleus differential expression results without requiring local R or Python installations, a standalone interactive web interface dashboard is bundled in this repository:
 
 
-- **Dashboard File:** [dashboard.html](dashboard.html)
-- **Direct Access:** Open directly in any modern web browser (double-click `dashboard.html` locally or right-click -> Open With -> Chrome/Edge/Firefox).
+- **Dashboard File:** [docs/dashboard.html](docs/dashboard.html)
+- **Direct Access:** Open directly in any modern web browser (double-click `docs/dashboard.html` locally or right-click -> Open With -> Chrome/Edge/Firefox).
 - **Key Features:**
   - **KPI Metrics Ribbon:** Instant access to donor counts (**N = 11**), analyzed nuclei (**41,435**), testable cell populations (**11**), and total FDR-significant discoveries (**399**).
   - **Interactive Search & Filter Table:** Filter all genes across any cell type by minimum absolute |log2FC|, FDR significance thresholds, nominal p-values, or gene symbols.
