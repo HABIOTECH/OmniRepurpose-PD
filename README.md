@@ -6,6 +6,12 @@
 
 > **Status:** snRNA-seq exploratory analysis completed on GSE157783. GWAS/MAGMA and PPMI proteomics integration are planned / in progress. This repository is not a clinical tool and does not establish treatment efficacy.
 
+## Research Team
+
+**Horizon Science Communication LLC — Bioinformatics Team**
+
+- **Hesham Abdullah, PhD**
+- **Alaa Elmansy**
 
 ## Scientific Workflow
 
@@ -26,7 +32,7 @@ To facilitate rapid exploration, validation, and visual inspection of all single
   - **Interactive Visualizations:** Embedded dynamic Chart.js plots showing discovery yield per cell type and cross-platform concordance.
   - **Comprehensive Data Export:** Instant one-click CSV export of filtered gene lists for downstream pathway enrichment analysis.
   
-## Overview
+## Project Overview
 
 The project follows a layer-by-layer workflow:
 
