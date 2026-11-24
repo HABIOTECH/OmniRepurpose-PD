@@ -3,7 +3,7 @@ suppressPackageStartupMessages({
   library(DESeq2)
 })
 
-base_dir <- "/sc/kzd/home/abdullah/bioinformatics/PK-multiomics"
+base_dir <- "path/to/project_root"
 pb_dir <- file.path(base_dir, "results/pseudobulk")
 out_dir <- file.path(base_dir, "results/de_deseq2_r")
 

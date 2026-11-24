@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 from scipy.stats import pearsonr, spearmanr
 
-base_dir = "/sc/kzd/home/abdullah/bioinformatics/PK-multiomics"
+base_dir = "path/to/project_root"
 r_dir = os.path.join(base_dir, "results/de_deseq2_r")
 py_dir = os.path.join(base_dir, "results/de_pydeseq2_py")
 out_dir = os.path.join(base_dir, "results/de_comparison")

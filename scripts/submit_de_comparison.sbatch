@@ -9,9 +9,9 @@
 #SBATCH --error=de_compare_%j.err
 
 echo "=== Pipeline started at $(date) ==="
-source /sc/kzd/home/abdullah/miniconda/etc/profile.d/conda.sh
+source ${CONDA_PREFIX}/etc/profile.d/conda.sh
 
-cd /sc/kzd/home/abdullah/bioinformatics/PK-multiomics
+cd path/to/project_root
 
 echo "--- [1/3] Running R DESeq2 (deseq2_env) ---"
 conda activate deseq2_env

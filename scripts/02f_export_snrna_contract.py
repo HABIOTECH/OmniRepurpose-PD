@@ -11,7 +11,7 @@ import glob
 import numpy as np
 import pandas as pd
 
-base_dir = "/sc/kzd/home/abdullah/bioinformatics/PK-multiomics"
+base_dir = "path/to/project_root"
 r_dir = os.path.join(base_dir, "results/de_deseq2_r")
 out_file = os.path.join(base_dir, "results/snrna_gene_scores.tsv")
 

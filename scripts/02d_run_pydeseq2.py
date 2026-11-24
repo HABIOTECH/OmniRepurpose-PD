@@ -5,7 +5,7 @@ import numpy as np
 from pydeseq2.dds import DeseqDataSet
 from pydeseq2.ds import DeseqStats
 
-base_dir = "/sc/kzd/home/abdullah/bioinformatics/PK-multiomics"
+base_dir = "path/to/project_root"
 pb_dir = os.path.join(base_dir, "results/pseudobulk")
 out_dir = os.path.join(base_dir, "results/de_pydeseq2_py")
 os.makedirs(out_dir, exist_ok=True)

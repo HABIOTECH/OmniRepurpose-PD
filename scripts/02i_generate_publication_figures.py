@@ -30,7 +30,7 @@ plt.rcParams.update({
     'grid.linewidth': 0.5,
 })
 
-base_dir = "/sc/kzd/home/abdullah/bioinformatics/PK-multiomics"
+base_dir = "path/to/project_root"
 fig_dir = os.path.join(base_dir, "results/figures")
 os.makedirs(fig_dir, exist_ok=True)
 

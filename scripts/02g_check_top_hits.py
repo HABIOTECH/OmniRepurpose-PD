@@ -2,7 +2,7 @@
 import os
 import pandas as pd
 
-base_dir = "/sc/kzd/home/abdullah/bioinformatics/PK-multiomics"
+base_dir = "path/to/project_root"
 snrna_file = os.path.join(base_dir, "results/snrna_gene_scores.tsv")
 
 df = pd.read_csv(snrna_file, sep="\t")

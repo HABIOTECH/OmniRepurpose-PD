@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import pandas as pd
 
-base = "/sc/kzd/home/abdullah/bioinformatics/PK-multiomics"
+base = "path/to/project_root"
 map_file = f"{base}/data/ref/id_map.tsv"
 snrna_file = f"{base}/results/snrna_gene_scores.tsv"
 
