@@ -14,6 +14,7 @@
 </p>
 
 > **A reproducible, open-source multi-omics framework for Parkinson's disease translational research.** Bridging post-mortem human midbrain single-nucleus RNA sequencing (41,435 nuclei across 12 populations), large-scale European GWAS causal architecture ($N = 482,730$), and longitudinal CSF fluid proteomics (PPMI Olink & SomaLogic) to prioritize candidate targets and pathways for neuroprotective drug repurposing.
+
 > **Status:** snRNA-seq exploratory analysis completed on GSE157783. GWAS/MAGMA and PPMI proteomics integration are planned / in progress. This repository is not a clinical tool and does not establish treatment efficacy.
 
 ## Research Team
