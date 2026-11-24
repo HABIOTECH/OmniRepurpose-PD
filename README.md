@@ -235,7 +235,7 @@ This project was conducted by **Dr. Hesham Abdullah** and **Alaa Elmansy**, and 
 
 **Alaa Elmansy**
 - Email: `alaaelmansy325@gmail.com`
-- GitHub: [TBD](https://github.com/)
+- GitHub: [https://github.com/Ala-Mohamed)
 - LinkedIn: [Alaa Mohamed](https://www.linkedin.com/in/alaa-mohamed-4171b1274/)
 
 ---
