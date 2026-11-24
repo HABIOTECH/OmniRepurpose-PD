@@ -18,12 +18,16 @@
 > **Status:** snRNA-seq exploratory analysis completed on GSE157783. GWAS/MAGMA and PPMI proteomics integration are planned / in progress. This repository is not a clinical tool and does not establish treatment efficacy.
 
 
+
+
 ## Research Team
 
 **Horizon Science Communication LLC — Bioinformatics Team**
 
 - **Hesham Abdullah, PhD**
 - **Alaa Elmansy**
+
+
 
 
 
