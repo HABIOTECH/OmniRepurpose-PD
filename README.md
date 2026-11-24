@@ -45,7 +45,7 @@ To facilitate rapid exploration, validation, and visual inspection of all single
 
 See [`docs/analysis-summary.md`](docs/analysis-summary.md) for study details, design choices, results, and limitations; see [`docs/data-access.md`](docs/data-access.md) for data provenance and access conditions.
 
-## Repository map
+## Repository structure
 
 ```text
 .
@@ -92,7 +92,7 @@ The raw GSE157783 matrices and the derived AnnData object are not included here.
 For reproducibility, this repository should include code, environment specifications, compact QC summaries, and permitted aggregate results. If large derived artifacts are approved for distribution, use an institution-approved repository or a versioned release/data archive rather than committing them directly to Git history.
 
 
-## Publication Figures and Findings
+## Results Showcase
 
 All figures were generated at 300 DPI publication standards and are available in vector PDF and PNG formats in [](results/figures/).
 
@@ -163,6 +163,26 @@ The current analysis contains 41,435 nuclei from 11 donors (6 controls and 5 PD)
 
 The R DESeq2 design was `~ sex + age + diagnosis` for cell types with sufficient samples, with PD contrasted against Control. The DaNs model used `~ diagnosis` because only four donors were available. See [`docs/methods-and-limitations.md`](docs/methods-and-limitations.md) for the full qualification and filtering details.
 
+## Tools and References
+
+| Tool / Resource | Version / Release | Primary Analytical Use |
+|---|---|---|
+| **Python** | 3.10 | Core computational scripting and pipeline automation |
+| **R** | 4.2+ | Bioconductor statistical modeling and differential testing |
+| **DESeq2** | v1.38+ | Generalized linear modeling (Negative Binomial GLM) for pseudobulk snRNA-seq |
+| **PyDESeq2** | v0.4+ | Python GPU/CPU implementation for cross-platform concordance benchmarking |
+| **Scanpy / AnnData** | v1.9+ / v0.10+ | Single-nucleus count matrix handling, QC metrics, and donor aggregation |
+| **MAGMA** | v1.10 (Linux 64-bit) | SNP annotation, gene-level analysis, and cell-type-property enrichment |
+| **PLINK** | v1.90 | Reference panel manipulation and linkage disequilibrium calculation |
+| **gwaslab** | v3.4+ | GWAS summary statistics harmonization, liftover, and quality control |
+| **SLURM Workload Manager** | HPC Cluster | Parallel distributed job scheduling on HPC nodes |
+| **GRCh38 Reference GTF** | 2024-A (10x Genomics) | Transcriptome annotation, genomic coordinates, and HGNC symbol mapping |
+| **1000 Genomes Project** | Phase 3 (EUR) | European linkage disequilibrium (LD) reference panel for MAGMA |
+| **NCBI37.3 Gene Locations** | Build 37 / hg19 | Canonical transcription start/stop boundaries for MAGMA SNP annotation |
+| **HGNC Complete Set** | 2024 Release | Approved human gene symbols and stable Ensembl-to-symbol cross-references |
+| **NCBI Gene2GO** | 2024 Release | Comprehensive Gene Ontology (BP, MF, CC) functional annotations |
+
+
 ## Reproduction
 
 Reproduction instructions will be finalized after the scripts are made portable and version-pinned. Current scripts were run on an HPCC environment and may contain site-specific absolute paths. Before claiming a clean reproducible workflow:
@@ -183,10 +203,49 @@ ensembl_id  symbol  score  direction  effect  p  padj  notes
 
 `score` is intended to increase with evidence strength (for example, `-log10(p)`); `direction` records effect sign; `effect` is the log2 fold change. Unmeasured genes should be absent, not assigned a zero-evidence value. Check the current exporter and validate symbols, duplicated IDs, p-value handling, and whether selecting the strongest cell type per gene is appropriate before release.
 
-## License, citation, and contributors
 
-Add a repository license only after confirming that the project code and any included derived materials may be released under that license. Add a `CITATION.cff` with authors, version, and publication/preprint citations once those details are finalized. Cite the original dataset and analysis methods in [`docs/data-access.md`](docs/data-access.md).
+## References
+
+1. Kamath T, Abdulraouf A, Burris KS, et al. **Single-cell genomic profiling of human dopamine neurons identifies a population that selectively degenerates in Parkinson's disease.** *Nature Neuroscience* 2022;25(5):588–595. DOI: [10.1038/s41593-022-01061-1](https://doi.org/10.1038/s41593-022-01061-1)
+2. Nalls MA, Blauwendraat C, Vallerga CL, et al. **Identification of novel risk loci, causal insights, and heritable risk for Parkinson's disease: a meta-analysis of genome-wide association studies.** *The Lancet Neurology* 2019;18(12):1091–1102. DOI: [10.1016/S1474-4422(19)30320-5](https://doi.org/10.1016/S1474-4422(19)30320-5)
+3. The Parkinson's Progression Markers Initiative (PPMI). **The Parkinson's Progression Markers Initiative (PPMI) — establishing a longitudinal biospecimen and multi-omics resource for Parkinson's disease biomarker discovery.** *Movement Disorders* 2018;33(10):1488–1498. DOI: [10.1002/mds.27469](https://doi.org/10.1002/mds.27469)
+4. de Leeuw C, Mooij J, Heskes T, Posthuma D. **MAGMA: Generalized gene-set analysis of GWAS data.** *PLoS Computational Biology* 2015;11(4):e1004219. DOI: [10.1371/journal.pcbi.1004219](https://doi.org/10.1371/journal.pcbi.1004219)
+
+---
+
+## Contributors and Affiliation
+
+This project was conducted by **Dr. Hesham Abdullah** and **Alaa Elmansy**, and is affiliated with **Horizon Science Communication LLC**.
+
+**Dr. Hesham Abdullah**
+- Email: `ceo@horizon-sci-comm.us` / `horizonsc.us@gmail.com`
+- GitHub: [@HABIOTECH](https://github.com/HABIOTECH)
+- LinkedIn: [Hesham Abdullah](https://www.linkedin.com/in/hesham-abdullah-40bab1190/)
+
+**Alaa Elmansy**
+- Email: `alaaelmansy325@gmail.com`
+- GitHub: [TBD](https://github.com/)
+- LinkedIn: [Alaa Mohamed](https://www.linkedin.com/in/alaa-mohamed-4171b1274/)
+
+---
 
 ## Acknowledgment
 
-Horizon Science Communication LLC
+This study is part of the multi-omics computational discovery initiatives developed by **Horizon Science Communication LLC**.
+
+
+### Organization
+
+**Horizon Science Communication LLC**
+
+<img width="1448" height="1086" alt="Horizon Science Communication LLC" src="https://github.com/user-attachments/assets/eff03aac-180b-46c2-baac-8433ebdafdad" />
+
+🌐 [Website](https://www.horizon-sci-comm.us/)
+---
+
+
+
+## License
+
+MIT License — see [LICENSE](LICENSE) for details.
+
