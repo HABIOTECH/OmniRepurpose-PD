@@ -1,8 +1,16 @@
-# Completely exclude HTML files from language stats
-*.html linguist-generated=true
-*.html linguist-vendored=true
-*.html -linguist-detectable
+# Explicitly exclude the dashboard HTML file from language statistics
+dashboard.html linguist-vendored
+dashboard.html linguist-generated
+dashboard.html -linguist-detectable
 
-# Assets & documentation
-assets/** linguist-vendored=true
-results/figures/** linguist-vendored=true
+# Wildcard fallback for all other HTML files anywhere in repo
+*.html linguist-vendored
+*.html linguist-generated
+*.html -linguist-detectable
+*/**.html linguist-vendored
+*/**.html linguist-generated
+*/**.html -linguist-detectable
+
+# Assets and documentation
+assets/** linguist-vendored
+results/figures/** linguist-vendored
