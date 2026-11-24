@@ -1,6 +1,6 @@
 # OmniRepurpose-PD
 
-![OmniRepurpose-PD: Parkinson's disease multi-omics integration](assets/horizon_omni_repurpose_pd_multomics_cover_corrected.png)
+![OmniRepurpose-PD: Parkinson's disease multi-omics integration](assets/cover.png)
 
 **A reproducible multi-omics analysis framework for Parkinson's disease research.** This project brings together midbrain single-nucleus RNA sequencing (snRNA-seq), CSF Olink proteomics, and Parkinson's disease GWAS evidence to prioritize genes and pathways for downstream investigation and drug-repurposing research.
 
