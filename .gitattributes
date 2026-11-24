@@ -1,10 +1,8 @@
-# Exclude HTML files completely from language statistics
+# Completely exclude HTML files from language stats
+*.html linguist-generated=true
+*.html linguist-vendored=true
 *.html -linguist-detectable
-*.html linguist-vendored
-*.html linguist-documentation
-dashboard*.html -linguist-detectable
-dashboard*.html linguist-documentation
 
-# Mark asset binaries as vendored
-assets/** linguist-vendored
-results/figures/** linguist-vendored
+# Assets & documentation
+assets/** linguist-vendored=true
+results/figures/** linguist-vendored=true
