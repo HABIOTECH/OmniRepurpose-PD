@@ -34,13 +34,14 @@ To facilitate rapid exploration, validation, and visual inspection of all single
   
 ## Project Overview
 
-The project follows a layer-by-layer workflow:
+## Omics Layers
 
-1. **snRNA-seq:** cell-type specificity and donor-level pseudobulk differential expression.
-2. **GWAS:** gene-level genetic association and cell-type enrichment (MAGMA).
-3. **CSF proteomics:** case-control and progression analyses, with Olink used for platform replication where data are available and permitted.
-4. **Integration:** combine evidence layers, preserving missing/unmeasured evidence as missing rather than treating it as negative.
-5. **Downstream prioritization:** network propagation and drug-target analyses, subject to data availability and validation.
+| Layer | Technology & Description | Cohort / Tissue | Samples / Size | Accession / Source |
+|---|---|---|---|---|
+| **Midbrain snRNA-seq** | Single-nucleus RNA sequencing (10x Genomics Chromium) — cell-type-resolved transcriptomics and pseudobulk differential expression | Post-mortem human midbrain / Substantia Nigra (Kamath et al.) | 41,435 nuclei (11 donors: 6 Control, 5 Idiopathic PD) | [GSE157783](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157783) |
+| **PD GWAS Summary Stats** | Large-scale European meta-analysis (excl. 23andMe) — genome-wide variant association and MAGMA gene-level / cell-type enrichment | European ancestry case-control cohorts (Nalls et al. 2019) | $N = 482,730$ (33,674 cases / 449,056 controls; ~7.8M SNPs) | [GWAS Catalog](https://www.ebi.ac.uk/gwas/studies/GCST009325) / [IPDGC](https://pdgenetics.org/) |
+| **CSF Proteomics (Olink)** | Proximity Extension Assay (Olink Explore 1536 / Target 96 Neuro) — targeted high-multiplex fluid protein biomarker profiling | Cerebrospinal Fluid (CSF), Parkinson's Progression Markers Initiative | Longitudinal PD cohort and healthy controls | [PPMI Study](https://www.ppmi-info.org/) |
+| **CSF Proteomics (SomaLogic)** | Modified aptamer-based proteomic platform (SomaScan 4K) — broad dynamic range protein quantification for platform cross-replication | Cerebrospinal Fluid (CSF), Parkinson's Progression Markers Initiative | Longitudinal PD cohort and healthy controls | [PPMI Study](https://www.ppmi-info.org/) |
 
 See [`docs/analysis-summary.md`](docs/analysis-summary.md) for study details, design choices, results, and limitations; see [`docs/data-access.md`](docs/data-access.md) for data provenance and access conditions.
 
