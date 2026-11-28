@@ -56,7 +56,7 @@ To facilitate rapid exploration, validation, and visual inspection of all single
 
 | Layer | Technology & Description | Cohort / Tissue | Samples / Size | Accession / Source |
 |---|---|---|---|---|
-| **Midbrain snRNA-seq** | Single-nucleus RNA sequencing (10x Genomics Chromium) — cell-type-resolved transcriptomics and pseudobulk differential expression | Post-mortem human midbrain / Substantia Nigra (Kamath et al.) | 41,435 nuclei (11 donors: 6 Control, 5 Idiopathic PD) | [GSE157783](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157783) |
+| **Midbrain snRNA-seq** | Single-nucleus RNA sequencing (10x Genomics Chromium) — cell-type-resolved transcriptomics and pseudobulk differential expression | Post-mortem human midbrain / Substantia Nigra (Kamath et al.) | ~41,000 nuclei (11 donors: 6 Control, 5 Idiopathic PD) | [GSE157783](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157783) |
 | **PD GWAS Summary Stats** | Large-scale European meta-analysis (excl. 23andMe) — genome-wide variant association and MAGMA gene-level / cell-type enrichment | European ancestry case-control cohorts (Nalls et al. 2019) | $N = 482,730$ (33,674 cases / 449,056 controls; ~7.8M SNPs) | [GWAS Catalog](https://www.ebi.ac.uk/gwas/studies/GCST009325) / [IPDGC](https://pdgenetics.org/) |
 | **CSF Proteomics (Olink)** | Proximity Extension Assay (Olink Explore 1536 / Target 96 Neuro) — targeted high-multiplex fluid protein biomarker profiling | Cerebrospinal Fluid (CSF), Parkinson's Progression Markers Initiative | Longitudinal PD cohort and healthy controls | [PPMI Study](https://www.ppmi-info.org/) |
 | **CSF Proteomics (SomaLogic)** | Modified aptamer-based proteomic platform (SomaScan 4K) — broad dynamic range protein quantification for platform cross-replication | Cerebrospinal Fluid (CSF), Parkinson's Progression Markers Initiative | Longitudinal PD cohort and healthy controls | [PPMI Study](https://www.ppmi-info.org/) |
@@ -117,7 +117,7 @@ All figures were generated at 300 DPI publication standards and are available in
 ### Figure 1: Cell-Type Composition and Donor Representation
 ![Figure 1: Cell-Type Composition](results/figures/Fig1_celltype_composition.png)
 
-> **Figure 1 Footnote:** **Midbrain Single-Nucleus Composition and Donor Representation.** Distribution of 41,435 nuclei profiled across 12 annotated midbrain populations from 11 human donors (6 Controls, 5 Idiopathic PD). Oligodendrocytes represent the predominant glial population ( = 21,268$), followed by Astrocytes ( = 4,708$), Microglia ( = 3,903$), Excitatory Neurons ( = 3,037$), and OPCs ( = 2,754$). Rare neuronal subtypes include GABAergic neurons ( = 531$), CADPS2+ neurons ( = 117$, PD-exclusive), and Dopaminergic Neurons ( = 68$). Panels illustrate absolute cell count distributions, relative cell fractions per donor, and overall cohort donor balances.
+> **Figure 1 Footnote:** **Midbrain Single-Nucleus Composition and Donor Representation.** Distribution of ~41,000 nuclei profiled across 12 annotated midbrain populations from 11 human donors (6 Controls, 5 Idiopathic PD). Oligodendrocytes represent the predominant glial population ( = 21,268$), followed by Astrocytes ( = 4,708$), Microglia ( = 3,903$), Excitatory Neurons ( = 3,037$), and OPCs ( = 2,754$). Rare neuronal subtypes include GABAergic neurons ( = 531$), CADPS2+ neurons ( = 117$, PD-exclusive), and Dopaminergic Neurons ( = 68$). Panels illustrate absolute cell count distributions, relative cell fractions per donor, and overall cohort donor balances.
 
 ---
 
